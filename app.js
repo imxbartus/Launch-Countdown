@@ -4,7 +4,7 @@ const minutesEl = document.getElementById("minutes");
 const secondsEl = document.getElementById("seconds");
 
 function countdown() {
-  const destDate = new Date("22 december 2021");
+  const destDate = new Date("20 april 2022");
   const currentDate = new Date();
 
   const totalSeconds = Math.floor((destDate - currentDate) / 1000);
